@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido El Sombrero</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="#contato">Contato</a>
+        </div>
+
+        <div class="section1">
+            <h1>Pedido El Sombrero</h1>
+    
+            <form action="#" method="POST">
+                <!-- Seleção de Lanche -->
+                <label for="aperitivo">Escolha seu aperitivo:</label>
+                <select id="aperitivo" name="aperitivo" required>
+                    <option value="">Selecione seu aperitivo</option>
+                    <option value="guacamole">Guacamole</option>
+                    <option value="nachos_l">Nachos Loucos</option>
+                    <option value="nachos_q">Nachos com Queijo</option>
+                    <option value="tacos_f">Tacos Mex-Frango</option>
+                    <option value="tacos_c">Tacos Mex-Carne</option>
+                    <option value="tacos_p">Tacos Mex-Pernil</option>
+                </select>
+
+                <label for="lanche">Escolha seu lanche:</label>
+                <select id="lanche" name="lanche" required>
+                    <option value="">Selecione seu lanche</option>
+                    <option value="burrito_f">Burrito de Frango</option>
+                    <option value="burrito_c">Burrito de Carne</option>
+                    <option value="burrito_p">Burrito de Pernil</option>
+                    <option value="cancun_kids">Burguer Cancún Kids do México</option>
+                    <option value="cancun">Burguer Cancún</option>
+                    <option value="acapulco">Burguer Acapulco</option>
+                    <option value="tijuana">Burguer Tijuana</option>
+                    <option value="guadalajara">Burguer Guadalajara</option>
+                </select>
+
+                <label for="bebida">Escolha sua bebida:</label>
+                <select id="bebida" name="bebida" required>
+                    <option value="">Selecione sua bebida</option>
+                    <option value="coca">Coca-cola lata</option>
+                    <option value="refrigerante">Refrigerante lata sabores</option>
+                    <option value="suco">Suco Natural 500ml</option>
+                    <option value="agua">Água 500ml</option>
+                </select>
+    
+                <!-- Nome -->
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <!-- Telefone -->
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10,11}" placeholder="Apenas números" required>
+    
+                <!-- Forma de Pagamento -->
+                <label for="pagamento">Forma de Pagamento:</label>
+                <select id="pagamento" name="pagamento" required>
+                    <option value="">Selecione a forma de pagamento</option>
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="cartao">Cartão de Crédito/Débito</option>
+                    <option value="pix">PIX</option>
+                </select>
+    
+                <!-- Endereço de Entrega -->
+                <label for="endereco">Endereço de Entrega:</label>
+                <input type="text" id="endereco" name="endereco" required>
+        
+            </form>
+
+            <!-- Botões de Ação -->
+            <div class="actions">
+                <button type="reset">Cancelar</button>
+                <button type="submit">Finalizar Pedido</button>
+            </div>
+        </div>
+    
+        <div id="sidebar" class="sidebar">
+            <div class="copy">
+                <p><a href="/">&copy; Copyright 2024 by Célio Jr.</a></p>
+            
+            </div>
+    
+            <div class="links">
+                <a  href="#instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a  href="#facebook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a  href="#twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a  href="#linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a  href="#youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        
+    </body>
+</html>

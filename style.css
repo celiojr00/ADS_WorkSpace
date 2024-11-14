@@ -1,11 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    /*background-color: #f8f3e7;
-    color: #3e2723;*/
-    background-image: url('img/mexicana_capa_site.jpg');
-    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-color: #f8f3e7;
+    color: #3e2723;
     margin: 0;
     padding: 0;
 }
@@ -81,6 +77,7 @@ body a{
     justify-content: center;
 }
 .section2 {
+    color: #3e2723;
     padding: 80px;
     text-align: center;
     position: relative;
@@ -110,7 +107,6 @@ body a{
 }
 
 .menu-page-h1 {
-    color: #d32f2f;
     text-align: center;
 }
 .menu-section {
@@ -135,7 +131,59 @@ body a{
     font-weight: bold;
 }
 .price {
-    color: #388e3c;
+    color: #3e2723;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.actions {
+    margin-top: 30px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+    color: white;
+    margin-right: 5px;
 }
 
 .link {
