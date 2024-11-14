@@ -85,15 +85,6 @@ body a{
     padding: 14px 15px;
     justify-content: center;
 }
-.section3 {
-    color: #3e2723;
-    padding: 80px;
-    text-align: center;
-    position: relative;
-    bottom: 10ch;
-    padding: 14px 15px;
-    justify-content: center;
-}
 .sombrero-container {
     display: flex;
     justify-content: center;
@@ -121,12 +112,17 @@ body a{
     top: 20px;
     
 }
+
+.home_center {
+    display: flex;
+    justify-content: center;
+}
 .qrcode-container {
     justify-content: center;
     width: 10%;
-    position: absolute;
-    top: 50ch;
-    left: 100ch;
+    position: relative;
+    top: 22ch;
+    left: 4ch;
 }
 
 .qrcode-container img {
