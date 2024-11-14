@@ -90,6 +90,27 @@ body a{
     justify-content: center;
     position: relative;
     top: 50px;
+    left: -30ch
+}
+.elsombrero-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -60px;
+    left: -30ch
+}
+.qrcode-container {
+    justify-content: center;
+    width: 10%;
+    position: absolute;
+    top: 55ch;
+    left: 140ch;
+}
+
+.qrcode-container img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
 }
 
 .sombrero {
@@ -184,6 +205,22 @@ button[type="reset"] {
     background-color: #f44336;
     color: white;
     margin-right: 5px;
+}
+
+.botao {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.botao:hover {
+    background-color: #45a049;
 }
 
 .link {
